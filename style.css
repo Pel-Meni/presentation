@@ -1,0 +1,48 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Тёмно-серый текст */
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.reveal .slides section {
+    text-align: center;
+    color: #333; /* Тёмно-серый текст */
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #FF8C00; /* Тёмно-оранжевый */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* Акцентный фиолетовый для подзаголовков и линий */
+.accent {
+    color: #800080; /* Фиолетовый */
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Стиль для выделения ключевых фраз */
+.highlight {
+    color: #FF8C00; /* Оранжевый */
+    font-weight: bold;
+}
+
+/* Отступы для блоков текста */
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 20px 0;
+}

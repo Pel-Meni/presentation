@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+/* Принудительный белый фон для всей презентации и тёмно-серый текст */
+.reveal, .reveal .slides {
+    background-color: #FFFFFF !important; /* Белый фон */
+    color: #333333 !important; /* Тёмно-серый текст */
+}
+
 .reveal .slides section {
     text-align: center;
     padding: 60px 20px;
@@ -43,6 +49,7 @@ ul li {
     color: #333333;
 }
 
+/* Стиль для абзацев */
 p {
     font-size: 20px;
     color: #333333;
